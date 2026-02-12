@@ -1,0 +1,12 @@
+augment:
+  train:
+    random_resized_crop: true
+    hflip_prob: 0.5
+    color_jitter: true
+    gaussian_blur: true
+    random_rotation_deg: 12
+    random_erasing: true
+
+  eval:
+    resize_short: 256
+    center_crop: 224

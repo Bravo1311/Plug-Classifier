@@ -1,0 +1,16 @@
+dataset:
+  root_dir: data/raw
+  image_size: 224                   # standard input resolution for ResNet
+  num_workers: 4                    # no of subprocesses that load data in parallel
+  pin_memory: true
+  # train_dataset: data/splits/train
+  # test_dataset: data/splits/test
+  # num_classes: 20
+  # class_names: mapping/label_mapping.py
+
+splits:
+  mode: "random"                    # "random" or "from_files"
+  train: 0.8
+  val: 0.2
+  test: 0.0
+  seed: 42

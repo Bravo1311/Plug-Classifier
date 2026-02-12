@@ -1,0 +1,27 @@
+# Ignore all data contents
+data/raw/*
+data/processed/*
+
+# But keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/processed/images/.gitkeep
+!data/processed/images/train/.gitkeep
+!data/processed/images/val/.gitkeep
+!data/processed/labels/.gitkeep
+!data/processed/labels/train/.gitkeep
+!data/processed/labels/val/.gitkeep
+
+# Ignore runs and checkpoints
+runs/
+models/checkpoints/*
+models/exported/*
+
+# Keep checkpoint folders
+!models/checkpoints/.gitkeep
+!models/exported/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.pyc
