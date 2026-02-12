@@ -91,7 +91,7 @@ This classifier represents Phase 1: semantic recognition in a broader perception
 
 ## Tech Stack
 - Python  3.10+
-- Pytorch
+- PyTorch
 - torchvision
 - TensorBoard
 - YAML configs
