@@ -15,6 +15,11 @@ This project represents Phase 1 (semantic recognition) of a braoder robotics per
 - AdamW optimizer
 - On-the-fly augmentation
 
+## Datasource
+The dataset used for training was obtained from Kaggle: \
+**Dataset** : [Plug Identifier Training Set](https://www.kaggle.com/datasets/pk1282/plugidentifier-extractedobjects-trainingset)
+All data rights belong to the original dataset authors. This repository does not redistribute the dataset.
+
 ## Dataset Format
 ```
 data/raw/
