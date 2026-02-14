@@ -17,7 +17,7 @@ This project represents Phase 1 (semantic recognition) of a braoder robotics per
 
 ## Datasource
 The dataset used for training was obtained from Kaggle: \
-**Dataset** : [Plug Identifier Training Set](https://www.kaggle.com/datasets/pk1282/plugidentifier-extractedobjects-trainingset) \
+**Dataset** : [Plug Identifier Training Set](https://www.kaggle.com/datasets/pk1282/plugidentifier-extractedobjects-trainingset) <br/>
 All data rights belong to the original dataset authors. This repository does not redistribute the dataset.
 
 ## Dataset Format
